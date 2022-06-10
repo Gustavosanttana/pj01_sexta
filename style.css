@@ -1,0 +1,64 @@
+body{
+    background-color: rgb(15, 128, 107);
+    display:grid;
+    height: 100vh;
+    place-items:center;
+    
+}
+.container{
+    background-color: rgb(37, 222, 44);
+    width: 60vw;
+    height: 88vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    
+}
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    border-radius:10%
+}
+
+.linha{
+    display: flex;
+    justify-content: space-evenly;
+}
+.circulo{
+    background-color:black ;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+
+
+}
+.btn{
+    
+    background-color: black;
+    border-radius: 15%;
+    padding: 10px 30px;
+    border: none;
+    color:rgb(44, 202, 44);
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+span{
+    color:black;
+    font-weight: bold;
+    font-size: 100px;
+}
+img{
+    width: 80%;
+    height: 80%;
+
+
+}
+.imagem{
+    display: grid;
+    place-items: center;
+}
+ 
